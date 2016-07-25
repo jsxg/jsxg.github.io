@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>基于CSS3 animation的鼠标滑过按钮特效</header>
+        <div class="main">
+            <a class="btn btn-1">按钮一</a>
+            <a class="btn btn-2">按钮二</a>
+            <a class="btn btn-3">按钮三</a>
+            <a class="btn btn-4">按钮四</a>
+            <a class="btn btn-5">按钮五</a>
+            <a class="btn btn-6">按钮六</a>
+            <a class="btn btn-7">按钮七</a>
+
+            <a class="btn btn-8"><span>按钮八</span></a>
+            <a class="btn btn-9"><span>按钮九</span></a>
+            <a class="btn btn-10">按钮十<span></span></a>
+            <a class="btn btn-11"><span>按钮十一</span></a>
+            <a class="btn btn-12"><span>按钮十二</span></a>
+            <a class="btn btn-13"><span>按钮十三</span></a>
+        </div>
+    </div>
+    
+    <script src="script/jquery-3.1.0.min.js"></script>
+    <script>
+        $(function(){
+            $(document).on('click','a',function(){
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
