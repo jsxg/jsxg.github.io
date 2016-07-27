@@ -1,0 +1,1 @@
+var exp,dependencies,exportsName,old,main;exp={},dependencies=["zepto"],exporsName="",old=window[exporsName],main=function(e){return exp},"function"==typeof define&&define.amd?define(dependencies,main):old=main();
