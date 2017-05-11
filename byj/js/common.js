@@ -1,0 +1,1 @@
+$(function(){$(".btn-back").on("tap",function(){history.go(-1)}),$(".btn-mycenter").on("tap",function(){location.href="mycenter.html"})});
