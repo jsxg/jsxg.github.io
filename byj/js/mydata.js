@@ -1,0 +1,1 @@
+$(function(){$(".mydata-tab-ls").on("tap","span",function(){var a=$(this).index();$(this).addClass("active").siblings().removeClass("active"),$(".mydata-item").eq(a).removeClass("dn").siblings().addClass("dn")})});
